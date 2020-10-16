@@ -1,0 +1,70 @@
+
+.wrap{
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    z-index: 1;
+    background-color: red;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+.circle-top-right{
+    right: 56%;
+    top: 0%;
+}
+.circle-top-right:hover{
+    background-color: violet;
+}
+.circle-top-left{
+    top: 0%;
+    right: 85%;
+}
+.circle-top-left:hover{
+    background-color: yellowgreen;
+}
+.circle-bottom-left{
+    top: 29%;
+    right: 85%;
+}
+.circle-bottom-left:hover{
+    background-color: navy;
+}
+.circle-bottom-right{
+    top: 29%;
+    right: 56%;
+}
+.circle-bottom-right:hover{
+    background-color: purple;
+}
+.box-blue{
+    position: absolute;
+    z-index: 2;
+    right: 63%;
+    top: 7%;
+    background-color: blue;
+    width: 30%;
+    height: 30%;
+}
+.box-blue:hover{
+    background-color: springgreen;
+
+    z-index: 4;
+}
+.box-yellow{
+    position: absolute;
+    z-index: 3;
+    right: 68%;
+    top: 12%;
+    background-color: yellow;
+    width: 20%;
+    height: 20%;
+    border-radius: 15%;
+}
+
+
+
